@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
-public class Main {
+public class MainCurrency {
     public static void main(String[] args) {
         RestTemplate restTemplate = new RestTemplate();
         CurrencyServiceImpl currencyService = new CurrencyServiceImpl(restTemplate);

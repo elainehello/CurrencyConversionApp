@@ -1,4 +1,4 @@
-package com.elainevalles.CurrencyConversionApp.blockhain.model;
+package com.elainevalles.CurrencyConversionApp.blockchain.model;
 
 public class TransactionRequest {
     private String sender;

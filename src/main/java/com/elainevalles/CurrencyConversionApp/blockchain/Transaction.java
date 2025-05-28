@@ -1,6 +1,6 @@
-package com.elainevalles.CurrencyConversionApp.blockhain;
+package com.elainevalles.CurrencyConversionApp.blockchain;
 
-import com.elainevalles.CurrencyConversionApp.blockhain.util.HashUtil;
+import com.elainevalles.CurrencyConversionApp.blockchain.util.HashUtil;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -26,7 +26,7 @@ public class Transaction {
         this.amount = amount;
         this.currency = currency;
         this.timeStamp = Instant.now().toEpochMilli();
-        this.transactionId = generateTrasactionId();
+        this.transactionId = generateTransactionId();
     }
 
     public String getSender() {

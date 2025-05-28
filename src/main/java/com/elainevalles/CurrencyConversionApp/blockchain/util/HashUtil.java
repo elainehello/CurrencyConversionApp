@@ -1,4 +1,4 @@
-package com.elainevalles.CurrencyConversionApp.blockhain.util;
+package com.elainevalles.CurrencyConversionApp.blockchain.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

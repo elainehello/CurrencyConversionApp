@@ -1,8 +1,8 @@
 package com.elainevalles.CurrencyConversionApp.service.impl;
 
-import com.elainevalles.CurrencyConversionApp.blockhain.Transaction;
-import com.elainevalles.CurrencyConversionApp.blockhain.model.Block;
-import com.elainevalles.CurrencyConversionApp.blockhain.model.TransactionRequest;
+import com.elainevalles.CurrencyConversionApp.blockchain.Transaction;
+import com.elainevalles.CurrencyConversionApp.blockchain.model.Block;
+import com.elainevalles.CurrencyConversionApp.blockchain.model.TransactionRequest;
 import com.elainevalles.CurrencyConversionApp.service.ICurrencyService;
 import com.elainevalles.CurrencyConversionApp.service.ILedgerService;
 

@@ -1,7 +1,7 @@
 package com.elainevalles.CurrencyConversionApp.service;
 
-import com.elainevalles.CurrencyConversionApp.blockhain.model.Block;
-import com.elainevalles.CurrencyConversionApp.blockhain.model.TransactionRequest;
+import com.elainevalles.CurrencyConversionApp.blockchain.model.Block;
+import com.elainevalles.CurrencyConversionApp.blockchain.model.TransactionRequest;
 
 import java.math.BigDecimal;
 import java.util.List;

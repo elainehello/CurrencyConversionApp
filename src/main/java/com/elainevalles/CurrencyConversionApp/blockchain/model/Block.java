@@ -1,7 +1,7 @@
-package com.elainevalles.CurrencyConversionApp.blockhain.model;
+package com.elainevalles.CurrencyConversionApp.blockchain.model;
 
-import com.elainevalles.CurrencyConversionApp.blockhain.Transaction;
-import com.elainevalles.CurrencyConversionApp.blockhain.util.HashUtil;
+import com.elainevalles.CurrencyConversionApp.blockchain.Transaction;
+import com.elainevalles.CurrencyConversionApp.blockchain.util.HashUtil;
 
 import java.util.List;
 
