@@ -33,7 +33,6 @@ public class CurrencyServiceImpl implements ICurrencyService {
         return currencyList;
     }
 
-    @Override
     public double convertCurrency(String baseCurrency, String targetCurrency, double amount) {
         String url = "https://api.frankfurter.app/latest?amount=" + amount + "&from=" + baseCurrency + "&to=" + targetCurrency;
         ExchangeRateResponse response = restTemplate.getForObject(url, ExchangeRateResponse.class);
@@ -44,4 +43,5 @@ public class CurrencyServiceImpl implements ICurrencyService {
         }
         return rate;
     }
+
 }
