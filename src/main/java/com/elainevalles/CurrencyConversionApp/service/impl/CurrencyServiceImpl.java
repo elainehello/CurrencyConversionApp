@@ -1,5 +1,7 @@
     package com.elainevalles.CurrencyConversionApp.service.impl;
 
+    import com.elainevalles.CurrencyConversionApp.dto.CurrencyRequestDTO;
+    import com.elainevalles.CurrencyConversionApp.dto.CurrencyResponseDTO;
     import com.elainevalles.CurrencyConversionApp.model.Currency;
     import com.elainevalles.CurrencyConversionApp.model.ExchangeRateResponse;
     import com.elainevalles.CurrencyConversionApp.service.ICurrencyService;
@@ -33,6 +35,7 @@
             return currencyList;
         }
 
+        @Override
         public double convertCurrency(String baseCurrency, String targetCurrency, double amount) {
             String url = "https://api.frankfurter.app/latest?amount=" + amount + "&from=" + baseCurrency + "&to=" + targetCurrency;
             ExchangeRateResponse response = restTemplate.getForObject(url, ExchangeRateResponse.class);
@@ -42,6 +45,19 @@
                 throw new IllegalArgumentException("Invalid target currency: " + targetCurrency);
             }
             return rate;
+        }
+
+        @Override
+        public CurrencyResponseDTO convert(CurrencyRequestDTO requestDTO) {
+            double converted = convertCurrency(
+                    requestDTO.getBaseCurrency(),
+                    requestDTO.getTargetCurrency(),
+                    requestDTO.getAmount());
+            return new CurrencyResponseDTO(
+                    requestDTO.getBaseCurrency(),
+                    requestDTO.getTargetCurrency(),
+                    requestDTO.getAmount()
+            );
         }
 
     }

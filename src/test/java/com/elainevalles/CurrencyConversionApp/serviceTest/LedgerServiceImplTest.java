@@ -1,4 +1,4 @@
-package com.elainevalles.CurrencyConversionApp;
+package com.elainevalles.CurrencyConversionApp.serviceTest;
 
 import com.elainevalles.CurrencyConversionApp.blockchain.model.Block;
 import com.elainevalles.CurrencyConversionApp.blockchain.model.TransactionRequest;

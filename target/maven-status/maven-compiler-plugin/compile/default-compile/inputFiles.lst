@@ -8,6 +8,10 @@
 /home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/config/RestTemplateConfig.java
 /home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/controller/currencyController.java
 /home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/controller/ledgerController.java
+/home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/dto/CurrencyRequestDTO.java
+/home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/dto/CurrencyResponseDTO.java
+/home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/dto/TransactionRequestDTO.java
+/home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/dto/TransactionResponseDTO.java
 /home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/model/Currency.java
 /home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/model/ExchangeRateResponse.java
 /home/eparra-v/IdeaProjects/CurrencyConversionApp/src/main/java/com/elainevalles/CurrencyConversionApp/service/ICurrencyService.java

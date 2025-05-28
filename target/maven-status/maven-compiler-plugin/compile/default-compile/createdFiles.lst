@@ -1,12 +1,15 @@
+com/elainevalles/CurrencyConversionApp/dto/CurrencyRequestDTO.class
 com/elainevalles/CurrencyConversionApp/Main/MainCurrency.class
 com/elainevalles/CurrencyConversionApp/blockchain/model/Block.class
 com/elainevalles/CurrencyConversionApp/service/impl/LedgerServiceImpl.class
+com/elainevalles/CurrencyConversionApp/dto/CurrencyResponseDTO.class
 com/elainevalles/CurrencyConversionApp/Main/MainLedger.class
 com/elainevalles/CurrencyConversionApp/config/RestTemplateConfig.class
 com/elainevalles/CurrencyConversionApp/service/ICurrencyService.class
 com/elainevalles/CurrencyConversionApp/model/Currency.class
 com/elainevalles/CurrencyConversionApp/CurrencyConversionAppApplication.class
 com/elainevalles/CurrencyConversionApp/blockchain/util/HashUtil.class
+com/elainevalles/CurrencyConversionApp/dto/TransactionRequestDTO.class
 com/elainevalles/CurrencyConversionApp/service/ILedgerService.class
 com/elainevalles/CurrencyConversionApp/blockchain/Transaction.class
 com/elainevalles/CurrencyConversionApp/service/impl/CurrencyServiceImpl.class
@@ -14,3 +17,4 @@ com/elainevalles/CurrencyConversionApp/controller/ledgerController.class
 com/elainevalles/CurrencyConversionApp/model/ExchangeRateResponse.class
 com/elainevalles/CurrencyConversionApp/blockchain/model/TransactionRequest.class
 com/elainevalles/CurrencyConversionApp/controller/currencyController.class
+com/elainevalles/CurrencyConversionApp/dto/TransactionResponseDTO.class

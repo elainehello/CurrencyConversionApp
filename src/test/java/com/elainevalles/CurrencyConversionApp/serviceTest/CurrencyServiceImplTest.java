@@ -1,4 +1,4 @@
-package com.elainevalles.CurrencyConversionApp;
+package com.elainevalles.CurrencyConversionApp.serviceTest;
 
 import com.elainevalles.CurrencyConversionApp.model.Currency;
 import com.elainevalles.CurrencyConversionApp.model.ExchangeRateResponse;
